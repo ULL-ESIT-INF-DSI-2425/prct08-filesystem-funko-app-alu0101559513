@@ -26,7 +26,8 @@ export function colorearValor(valor: number): string {
   } else {
     return chalk.red(`$${valor}`);
   }
-}export class ColeccionFunkosPop {
+}
+export class ColeccionFunkosPop {
   private _coleccion: Funko[] = [];
   private _usuario: string;
 
