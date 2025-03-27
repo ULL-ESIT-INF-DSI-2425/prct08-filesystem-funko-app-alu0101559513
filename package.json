@@ -1,5 +1,5 @@
 {
-  "name": "ejercicios",
+  "name": "funko-app",
   "version": "1.0.0",
   "main": "index.js",
   "directories": {
@@ -9,6 +9,7 @@
     "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
     "doc": "typedoc",
     "test": "vitest run",
+    "build": "node dist/index.js",
     "coverage": "vitest run --coverage --coverage.include 'src/**/*'"
   },
   "keywords": [],
